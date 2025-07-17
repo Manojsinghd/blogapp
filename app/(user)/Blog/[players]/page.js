@@ -1,4 +1,4 @@
-import atas from "@/component/lib/one.json"
+import atas from "@/component/lib/one.json";
 const players=({params})=>{
     const data=atas;
 

@@ -1,10 +1,10 @@
 'use client';
 
 import Link from "next/link";
-import datas from "@/component/lib/one.json"
+import atas from "@/component/lib/one.json";
 import styles from "./Blog.module.css"
 const Blog=()=>{
-    let a=datas;
+    let a=atas;
     return(
         <>
         <div className={styles["body"]}>
