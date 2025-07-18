@@ -13,7 +13,7 @@ const Blog=()=>{
             {
             a.map((e)=>(
                 <Link key={e.id} href={`/Blog/${e.id}`} className={styles["htitle"]}>
-                <img src={e.src} className={styles['image']}></img>
+                <image src={e.src} className={styles['image']}></image>
                 <div className={styles["title"]} >{e.title}</div>
                 </Link>
             ))

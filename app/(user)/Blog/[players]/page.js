@@ -5,7 +5,7 @@ const players=({params})=>{
 return(
     <>
     <h1>{data[params.players-1].des}</h1>
-    <img src={data[params.players-1].src}></img>
+    <image src={data[params.players-1].src}></image>
     </>
 )
 }
